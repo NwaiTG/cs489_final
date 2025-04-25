@@ -9,7 +9,7 @@ version = "0.0.1-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(23)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
@@ -39,6 +39,7 @@ dependencies {
     runtimeOnly("io.jsonwebtoken:jjwt-impl:0.12.6")
     runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.12.6")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    runtimeOnly("org.springframework.boot:spring-boot-docker-compose")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
@@ -49,3 +50,11 @@ tasks.withType<Test> {
         showStandardStreams = true
     }
 }
+
+//tasks.bootJar {
+//    archiveBaseName.set("dentalsysapp")
+//    archiveVersion.set("1.0.1")
+//    manifest {
+//        attributes["Main-Class"] =  "com.nwai.dentalsys.DentalsysApplication"
+//    }
+//}k
