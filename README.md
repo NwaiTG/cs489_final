@@ -19,6 +19,8 @@ Tech Stack
 7. Docker
 8. Azure
 
+   Screen Captures
+
 1. Create member account
    <img width="1440" alt="image" src="https://github.com/user-attachments/assets/0f942b1d-3d6f-421f-bb49-1586961d68bf" />
    <img width="1440" alt="image" src="https://github.com/user-attachments/assets/7e102b37-2286-4a2a-af5c-7af1410f5904" />
