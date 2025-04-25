@@ -51,6 +51,12 @@ tasks.withType<Test> {
     }
 }
 
+tasks.test {
+    useJUnitPlatform()
+    systemProperty("spring.profiles.active", "test")
+}
+
+
 //tasks.bootJar {
 //    archiveBaseName.set("dentalsysapp")
 //    archiveVersion.set("1.0.1")
