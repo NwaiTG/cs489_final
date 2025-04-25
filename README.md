@@ -1,4 +1,4 @@
-This is dental appointments management system.
+*** This is dental appointments management system ***
 
 Admin can create the user with three different role such as "ADMIN", "MEMBER" and "DENTIST".
 ADMIN role user can access all the endpoints.
@@ -6,10 +6,16 @@ MEMBER role user can create account, create appointments, search appointments by
 DENTIST role user can search their appointments with the detail info of patients and surgery.
 Want to enhance more functionality such as billing, and status.
 
-UML Diagram
+*** UML Diagram ***
 <img width="1042" alt="image" src="https://github.com/user-attachments/assets/95936dd7-910a-401c-b30f-14e2fdb05021" />
 
-Tech Stack
+*** Architecture Design ***
+<img width="689" alt="Architecture Design" src="https://github.com/user-attachments/assets/857df605-95bc-46f1-b3b0-ecc552ea6dcc" />
+
+*** ER Diagrams ***
+<img width="1069" alt="image" src="https://github.com/user-attachments/assets/b3a2bd1f-d972-4176-9813-79e8b531df62" />
+
+*** Tech Stack ***
 1. Java 21
 2. Spring Boot
 3. Spring Web
@@ -19,7 +25,7 @@ Tech Stack
 7. Docker
 8. Azure
 
-   Screen Captures
+*** Screen Captures ***
 
 1. Create member account
    <img width="1440" alt="image" src="https://github.com/user-attachments/assets/0f942b1d-3d6f-421f-bb49-1586961d68bf" />
